@@ -63,6 +63,7 @@ header {
     text-align: center;
     margin: 30px auto;
     width: 1000px;
+    max-width: 1000px;
 }
 
 .tea-of-month-grid {
@@ -106,6 +107,9 @@ header {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    min-height: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .locations h2 {
@@ -117,6 +121,8 @@ header {
     display: flex;
     flex-direction: row;
     background-color: transparent;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .location {
